@@ -4,51 +4,55 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercice</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Exercice Figma 3</title>
 </head>
 
 <body>
-    <nav>
-        <img class="mini-logo" src="./assets/mini-logo.png" alt="logo logoipsum" />
-        <ul>
-            <li class="home"><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Articles</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
-    <section class="section-up">
-        <div class="section-up-container">
-            <div class="left-container">
-                <h1>Ipsum <span>news</span>!</h1>
-                <h2>Your place to go to get informed</h2>
-                <hr />
-                <div class="text">
-                    <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
-                        optio ea sapiente quas, placeat, minus consequatur eos veritatis
-                        numquam aliquid consequuntur modi eveniet perspiciatis!
-                    </p>
-                </div>
-                <button>
-                    <h6>Know more</h6>
-                </button>
+    <header>
+        <div class="container">
+            <a href="#">
+                <img src="./assets/mini-logo.png" alt="logo logoipsum" class="logo" />
+            </a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1 class="hero-text-title">Ipsum <span>news</span>!</h1>
+                <p class="hero-text-subtitle">Your place to go to get informed</p>
+                <span class="hero-text-line"></span>
+                <p class="hero-text-paragraph">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                    optio ea sapiente quas, placeat, minus consequatur eos veritatis
+                    numquam aliquid consequuntur modi eveniet perspiciatis!
+                </p>
+                <a href="#" class="hero-text-btn">Know more</a>
             </div>
-            <div class="right-container">
-                <img class="logo" src="./assets/illustration-top-right.png" alt="illustration logoipsum" />
+            <div class="hero-cover">
+                <img src="./assets/illustration-top-right.png" alt="hero illustration" />
             </div>
         </div>
     </section>
-    <section class="section-down">
-        <h3>Latest news</h3>
-        <hr class="hr-2" />
-        <div class="images">
-            <div class="image-1"></div>
-            <div class="image-2"></div>
-            <div class="image-3"></div>
-            <div class="image-4"></div>
-            <div class="image-5"></div>
+    <section class="articles">
+        <div class="container">
+            <h2 class="articles-title">
+                Latest news
+                <div class="articles-line"></div>
+            </h2>
+            <div class="articles-container">
+                <a href="#" class="main-article"><img src="./assets/image 1.png" alt="" /></a>
+                <a href="#"><img src="./assets/image 2.png" alt="" /></a>
+                <a href="#"><img src="./assets/image 3.png" alt="" /></a>
+                <a href="#"><img src="./assets/image 4.png" alt="" /></a>
+                <a href="#"><img src="./assets/image 5.png" alt="" /></a>
+            </div>
         </div>
     </section>
 </body>
